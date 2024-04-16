@@ -44,15 +44,21 @@ Look through summer2_model.py and ensure that you have all other relevant packag
 
 # Run Models
 Open run_prediction.R and follow the instructions specified by the comments.
+
 prediction outputs are in the predictions folder.
 
 # Run Evaluations
 Open the evaluation RMD file
+
 Execute cell by cell, skip over any cell that mentions "by phase" or "phase labels".
+
 To change the tau value for Quantile Loss, go to the quantile loss cell and change the tau value on top to whatever you desire within the range (0,1).
+
 open results folder to view the pdf files of graphic results.
 
 # Debugging Tips
 1. Check to make sure that all relevant packages are installed.
+
 2. If all packages are installed properly, check to see if your working directory is specified correctly
+
 3. If working directories are also correctly specified, try changing code in run_prediction.R and summer2_model.py that refers to directories to explicitly refer to your computer's directory. For instance, change "summer2_model.py" to "C:/Users/ajplu/Desktop/urops/covid_predict-main/covid_predict_ASEAN/summer2_model.py" and "ASEAN_files/temp.csv" to "C:/Users/ajplu/Desktop/urops/covid_predict-main/covid_predict_ASEAN/ASEAN_files/temp.csv".
