@@ -4,27 +4,41 @@ Predicting the COVID pandemic in ASEAN states with Machine Learning
 
 # Credits
 The code in this folder is an upgraded version of code from https://github.com/nbanho/covid_predict.
+
 Features in the original code were preserved to a great extent.
+
 Changes were made to incorporate new models, new evaluation index, and new datasets from ASEAN countries.
 
 
 # Working Features
 EpiEstim model
+
 EpiNow2 model
+
 SARIMA model (aka arima)
+
 Prophet model
+
 Summer2 SIR model
+
 CRPS evaluations
+
 Quantile loss evalutions
+
 AUC hotspot prediction
+
 Secondary evaluation index (calibration, empirical coverage, sharpness, bias)
 
 
 # Setup:
 Ensure that the working directory for R and python are set to the current folder.
+
 Open and run packages.R to install necessary R packages.
+
 Run generate train and test.R in the ASEAN_files folder to generate relevant data files (optional, as all data files are included).
+
 Refer to https://summer2.readthedocs.io/en/latest/install.html and https://github.com/monash-emu/estival for instructions on installing summer2 and estival in python. 
+
 Look through summer2_model.py and ensure that you have all other relevant packages installed.
 
 
