@@ -1,3 +1,7 @@
+# Note from the Author (2025)
+This project was done in my second year at NUS. It reflects my early-stage R coding style, which I’ve significantly improved since then. I’ve chosen to leave it mostly unchanged to preserve the integrity of what was submitted, but I’ve learned a lot about reproducibility, sourcing, and modular workflows since.
+
+
 # Covid_predict_ASEAN
 Predicting the COVID pandemic in ASEAN states with Machine Learning
 
